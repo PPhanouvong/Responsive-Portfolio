@@ -219,20 +219,43 @@ body {
   
   @media screen and (max-width: 980px) { 
     body {
-    background: #4aaaa5;
+      height: 20%;
+      margin-top: 10%;
+      margin-right: 10%;
+      background: #4aaaa5;
+    }
+
+    .auth-image {
+      float: left;
+      width: 20%;
+      height: auto;
     }
   
   @media screen and (max-width: 768px) {
     body {
-    background: #4aaaa5;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 5%;
+      height: 25%;
+      background: #4aaaa5;
+    }
+
+    .auth-image {
+      float: left;
+      width: 50%;
+      height: auto;
     }
   
   @media screen and (max-width: 320px) {
     body { 
-    background: #4aaaa5;
+      float: left;
+      background: #4aaaa5;
     }
-  
-  @media screen and (max-width: 168px) {
-    body {
-    background: #4aaaa5;
+
+    .auth-image {
+      float: left;
+      width: 100%;
+      height: auto;
+      margin-top: 0%;
+      margin-right: 25%;
     }
