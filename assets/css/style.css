@@ -290,11 +290,8 @@ body {
     }
 
     .auth-image {
-      float: left;
       width: 100%;
       height: auto;
-      margin-top: 0%;
-      margin-right: 25%;
     }
 
     .work {
@@ -305,22 +302,15 @@ body {
     }
 
     #masthead {
-      position: fixed;
-      z-index: 99;
       width: 100%;
-      margin: 0 0 30px;
       color: #fff;
       background: #fff;
       border-bottom: 2px solid #ccc;
     }
 
-    nav a {
-      display: inline-block;
-      padding-left: 15px;
-      margin-left: 15px;
-      line-height: 18px;
-      color: #999;
-      text-decoration: none;
-      border-left: 1px solid #efefef;
+    .main-section {
+      width: 100%;
+      background: #fff;
+      border: 1px solid #ddd;
     }
   }
