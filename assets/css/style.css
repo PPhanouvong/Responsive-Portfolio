@@ -289,6 +289,14 @@ body {
       background: url("../images/background.jpg");
     }
 
+    body {
+      margin-top: 0%;
+      margin-right: 0%;
+      margin-bottom: 0%;
+      margin-left: 0%;
+      background: url("../images/background.jpg");
+    }
+
     .auth-image {
       width: 100%;
       height: auto;
@@ -309,8 +317,37 @@ body {
     }
 
     .main-section {
+      float: none;
+      display: block;
       width: 100%;
+      max-width: 100%;
+      margin: 0%;
       background: #fff;
       border: 1px solid #ddd;
+    }
+
+    #logo {
+      text-align: center;
+      width: 100%;
+      font-family: Georgia, Times, "Times New Roman", serif;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 90px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      background: #4aaaa5;
+    }
+
+    nav {
+      float: none;
+      text-align: center;
+      margin-top: 25px;
+    }
+
+    .container {
+      width: 100%;
+      margin: 0 auto;
+      clear: both;
     }
   }
